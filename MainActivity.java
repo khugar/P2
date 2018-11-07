@@ -15,15 +15,5 @@ public class MainActivity extends AppCompatActivity {
     /**
      * @author Kevin
      */
-    public class Entrenamiento{
-        int tiempo;
-        String Satisfaccion;
-
-
-    }
-    public Entrenamiento(int tiempo, String satisfaccion){
-        this.tiempo = tiempo;
-        this.satisfaccion = satisfaccion;
-    }
 
 }
