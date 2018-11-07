@@ -4,10 +4,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-//commit2
+//commit3
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
+
+    /**
+     * @author Kevin
+     */
+    public class Entrenamiento{
+        int tiempo;
+        String Satisfaccion;
+
+
+    }
+    public Entrenamiento(int tiempo, String satisfaccion){
+        this.tiempo = tiempo;
+        this.satisfaccion = satisfaccion;
+    }
+
 }
